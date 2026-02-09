@@ -14,44 +14,44 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💝', '💗'],  // Heart emojis
+        bears: ['🧸']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "You like me fr?",                                    // First interaction
+            yesBtn: "Yes baby",                                             // Text for "Yes" button
+            noBtn: "Yes (but with no seasoning)",                                               // Text for "No" button
+            secretAnswer: "I actually love you ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "How much do you love me tho?",                          // For the love meter
+            startText: "don't lie",                                   // Text before the percentage
+            nextBtn: "Next... ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Nde...you know...may you be valentine?🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Tapo, will you be my valentine?🌹", // The big question!
+            yesBtn: "Yes",                                             // Text for "Yes" button
+            noBtn: "No (wrong answer koma)"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "Chat, am I cooking?",  // Shows when they go past 5000%
+        high: "Hehehe, same💝",              // Shows when they go past 1000%
+        normal: "Basi?"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Lucky me fr.💓",
-        message: "Call me when you get the chance, I miss you already.",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Iwe umatiiii",
+        message: "To say I'm lucky to have you would be an understatement, I love you",
+        emojis: "❤️❤️❤️"  // These will bounce around
     },
 
     // Color scheme for the website
